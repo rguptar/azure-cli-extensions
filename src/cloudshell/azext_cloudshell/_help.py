@@ -12,27 +12,7 @@ helps['cloudshell'] = """
     short-summary: Commands to manage Cloudshells.
 """
 
-helps['cloudshell create'] = """
+helps['cloudshell connect'] = """
     type: command
-    short-summary: Create a Cloudshell.
+    short-summary: Connect to a Cloudshell.
 """
-
-helps['cloudshell list'] = """
-    type: command
-    short-summary: List Cloudshells.
-"""
-
-# helps['cloudshell delete'] = """
-#     type: command
-#     short-summary: Delete a Cloudshell.
-# """
-
-# helps['cloudshell show'] = """
-#     type: command
-#     short-summary: Show details of a Cloudshell.
-# """
-
-# helps['cloudshell update'] = """
-#     type: command
-#     short-summary: Update a Cloudshell.
-# """
