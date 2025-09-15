@@ -12,10 +12,8 @@ class CloudshellCommandsLoader(AzCommandsLoader):
 
     def __init__(self, cli_ctx=None):
         from azure.cli.core.commands import CliCommandType
-        from azext_cloudshell._client_factory import cf_cloudshell
         cloudshell_custom = CliCommandType(
-            operations_tmpl='azext_cloudshell.custom#{}',
-            client_factory=cf_cloudshell)
+            operations_tmpl='azext_cloudshell.custom#{}')
         super(CloudshellCommandsLoader, self).__init__(cli_ctx=cli_ctx,
                                                   custom_command_type=cloudshell_custom)
 

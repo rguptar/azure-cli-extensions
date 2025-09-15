@@ -5,7 +5,6 @@
 
 # pylint: disable=line-too-long
 from azure.cli.core.commands import CliCommandType
-from azext_cloudshell._client_factory import cf_cloudshell
 
 
 def load_command_table(self, _):
